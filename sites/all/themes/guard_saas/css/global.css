@@ -1,0 +1,67 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+div.zone-branding-wrapper{
+	background: url("../img/header_bg.png");
+	min-height: 145px;
+}
+div.zone-menu-wrapper{
+	background: url("../img/menu_bg.png");
+	min-height: 26px;
+	border-top: 2px solid #7c7c7c;
+	border-bottom: 1px solid #7c7c7c;
+}
+div.zone-slideshow-wrapper{
+	/*background: #1b2e3c;*/
+	border-top:1px solid #404040;
+}
+
+div.zone-menu-wrapper .links li {
+	float:left;	
+	padding:0;
+	margin:0;
+	position:relative;
+	bottom:-1px;
+}
+div.zone-menu-wrapper .links li a{
+	display:block;
+	text-decoration:none;
+	font:normal 17px Arial , Helvetica , sans-serif;
+	color: #FFFFFF;
+	padding: 3px 17px 4px 17px;
+	text-shadow: 1px 1px 0px #000000;
+  filter: dropshadow(color=#000000, offx=1, offy=1);
+	text-transform:capitalize;
+}
+div.zone-menu-wrapper .links li.active{
+	border:1px solid #000000;
+	border-bottom:none;
+}
+div.zone-menu-wrapper .links li.active a{
+	border:1px solid #5b5b5b;
+	padding: 2px 17px 3px 17px;
+	background: url("../img/active_menu_bg.png") repeat;
+}
+div.zone-menu-wrapper nav.navigation{
+	float:left;
+}
+div.zone-menu-wrapper .block-search{
+	float:right;
+}
+div.zone-menu-wrapper .block-search .form-type-textfield label{
+	font:normal 14px Arial , Helvetica , sans-serif;
+	margin-right:25px;
+	color:#FFFFFF;
+	text-shadow: 1px 1px 0px #000000;
+  filter: dropshadow(color=#000000, offx=1, offy=1);
+	text-transform:lowercase;
+	line-height:25px;
+}
+div.zone-menu-wrapper .block-search .form-type-textfield input[type="text"]{
+	border-radius:3px;
+	background: #999999;
+	border:none;
+	-webkit-box-shadow: inset 1px 1px 1px 1px #787878;
+  box-shadow: inset 1px 1px 1px 1px #787878;
+	height:20px;
+	width:108px;
+}

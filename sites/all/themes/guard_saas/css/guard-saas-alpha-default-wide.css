@@ -1,0 +1,24 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+body {
+  min-width: 1000px !important;
+}
+.container-12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px !important;
+}
+.container-12 .grid-12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px !important;
+}
+.container-16 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px !important;
+}
+.container-24{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px !important;
+}
